@@ -488,6 +488,7 @@
 // }
 
 //testing
+
 "use client";
 
 import * as React from "react";
@@ -560,6 +561,7 @@ const HeroSection = () => (
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
+            <Link href="/contact">
             <Button
               size="lg"
               className="gradient-primary border-0 text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all hover:scale-105"
@@ -567,6 +569,7 @@ const HeroSection = () => (
               Explore Tools
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
+            </Link>
             <Button
               variant="outline"
               size="lg"
@@ -879,7 +882,7 @@ const ToolsGrid = () => (
                   </div>
                   <Link href="/contact">
                     <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-4 py-2 text-sm font-medium group/btn">
-                      Try Free
+                      Explore Now
                       <ArrowRight className="w-4 h-4 ml-1 group-hover/btn:translate-x-1 transition-transform" />
                     </Button>
                   </Link>
